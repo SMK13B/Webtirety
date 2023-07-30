@@ -1,0 +1,51 @@
+/* Universal selector */
+/* * {
+    
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+
+/* Element selector */
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h2 {
+    font-weight: 700;
+    color: blue;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+}
+
+/* Class selector */
+
+.para1 {
+    color: blueviolet;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* chain Selector */
+
+.grp1 {
+    font-weight: 900;
+    font-family: monospace;
+}
+
+.grp2 {
+    color: chartreuse;
+    font-size: 40px;
+}
+
+/* group selector */
+
+h1, h3 {
+    color: crimson;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

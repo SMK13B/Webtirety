@@ -5,7 +5,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 } */
 
-/* Element selector */
+/* Element selector or type selector */
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -26,9 +26,13 @@ img {
 
 .para1 {
     color: blueviolet;
+    background-color: chartreuse;
     font-size: 16px;
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    border: 2px solid;
+    padding: 10px;
 }
 
 /* chain Selector */
@@ -48,4 +52,30 @@ img {
 h1, h3 {
     color: crimson;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#deko {
+    list-style: square;
+    background-color: blueviolet;
+}
+
+/* chain Selector */
+
+.sughead.fura {
+    font-weight: bolder;
+    background-color: chocolate;
+    color: wheat;
+}
+
+.fafu#dadu {
+    color: darkgreen;
+    background-color: darkgrey;
+}
+
+.latha {
+    color: rgb(255, 8, 8);
+}
+
+.partha {
+    color: rgb(17, 0, 255);
 }

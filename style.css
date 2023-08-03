@@ -20,6 +20,7 @@ h2 {
 img {
     height: 300px;
     width: 400px;
+    vertical-align:text-top;
 }
 
 /* Class selector */
@@ -78,4 +79,19 @@ h1, h3 {
 
 .partha {
     color: rgb(17, 0, 255);
+}
+
+.container {
+    display: inline-block;
+    background-color: brown;
+    color: white;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.joora {
+    background-color: yellow;
 }

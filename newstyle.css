@@ -1,0 +1,17 @@
+.mainContainer {
+    display: flex;
+    gap: 6px;
+    background-color: aquamarine;
+    padding: 7px;
+    border: 2px solid brown;
+
+}
+
+.item {
+
+    color: crimson;
+    padding: 5px;
+    background-color: chocolate;
+    flex: 1;
+
+}

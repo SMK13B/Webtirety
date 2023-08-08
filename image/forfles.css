@@ -1,0 +1,99 @@
+/* for flex practice  */
+
+.container {
+    width: 100%;
+    display: flex;
+    background-color: aquamarine;
+    gap: 5px;
+}
+
+.leftitem {
+    color: rgb(0, 38, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.rightitem {
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    justify-content: flex-end;
+    flex: 2;
+}
+
+.dcont1 {
+    display: flex;
+    width: 100%;
+    background-color: cornflowerblue;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+.dait1 {
+    flex: 1;
+    justify-content: flex-start;
+    color: black;
+}
+
+.dait2 {
+    flex: 1;
+    justify-content: flex-end;
+    color: red;
+}
+
+img {
+    width: 50%;
+    
+}
+
+span {
+    color: red;
+    font-style: oblique;
+}
+
+.nima1 {
+    width: 300px;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.gami {
+    width: 70px;
+}
+
+.bhdim {
+    float: right;
+}
+
+.clrp {
+    clear: right;
+}
+
+.pooja {
+    position: relative;
+    left: 70px;
+    bottom: 15px;
+}
+
+.dooja {
+    position: absolute;
+    right: 10px;
+}
+
+.lagoo {
+    position: relative;
+}
+
+.loogo {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 150px;
+    left: 30px;
+}

@@ -1,17 +1,65 @@
 .mainContainer {
+    width: 800px;
     display: flex;
-    gap: 6px;
+    gap: 10px;
     background-color: aquamarine;
     padding: 7px;
     border: 2px solid brown;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction: row;
+    
 
 }
 
 .item {
 
     color: crimson;
-    padding: 5px;
-    background-color: chocolate;
-    flex: 1;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex: 3;
+    
+    
+    
+    
 
+}
+
+.foora {
+    font-weight: bold;
+    color: blueviolet;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.dhhera {
+    color: red;
+    background-color: yellow;
+    font-style: italic;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+}
+
+.pada1 {
+    width: 300px;
+    height: auto;
+    border: solid 2px red;
+}
+
+.dara1 {
+    width: 200px;
+    height: 150px;
+    border: solid 2px green;
+    border-radius: 50px 10px 10px 50px;
+    
+}
+
+.link {
+    display: flex;
+    justify-content: flex-end;
 }

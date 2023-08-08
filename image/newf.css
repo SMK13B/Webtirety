@@ -1,0 +1,40 @@
+.mainbox {
+    display: flex;
+    border: solid 2px #000;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: 10px;
+    border: 2px solid red;
+    
+}
+
+.item2 {
+    margin: 10px;
+    border: 2px solid red;
+    
+}
+
+.item3 {
+    margin: 10px;
+    border: 2px solid red;
+}
+
+.item4 {
+    margin: 10px;
+    border: 2px solid red;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    
+}
+
+p {
+    padding: 10px;
+
+}
